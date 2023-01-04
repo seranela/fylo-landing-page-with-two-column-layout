@@ -7,7 +7,8 @@
 	--color-accent-bright-blue: hsl(224, 93%, 56%);
 	--color-accent-bright-blue-hover: hsl(224, 93%, 68%);
 	--color-accent-moderate-cyan: hsl(170, 50%, 33%);
-	--color-accent-light-red: hsl(0, 100%, 68%);
+	--color-accent-red: hsl(0, 93%, 48%);
+	--color-accent-pale-red: hsl(0, 100%, 90%);
 	--color-neutral-light-gray-blue: hsl(240, 75%, 98%);
 	--color-neutral-light-gray: hsl(0, 0%, 75%);
 
@@ -518,13 +519,25 @@ ul {
 	color: hsl(0, 0%, 45%);
 }
 
-.form-input.invalid {
-	border: 2px solid red;
+.intro-form .invalid {
+	border: 2px solid var(--color-accent-red);
 }
 
-.input-error-message {
+.access-form .invalid {
+	border: 2px solid var(--color-accent-pale-red);
+}
+
+.intro-form .input-error-message {
 	width: 100%;
-	color: var(--color-accent-light-red);
+	color: var(--color-accent-red);
+	font-size: 0.8rem;
+	margin: 0;
+	text-align: left;
+}
+
+.access-form .input-error-message {
+	width: 100%;
+	color: var(--color-accent-pale-red);
 	font-size: 0.8rem;
 	margin: 0;
 	text-align: left;
