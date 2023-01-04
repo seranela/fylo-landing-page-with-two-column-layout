@@ -9,7 +9,7 @@
 	--color-accent-moderate-cyan: hsl(170, 50%, 33%);
 	--color-accent-red: hsl(0, 93%, 48%);
 	--color-accent-pale-red: hsl(0, 100%, 90%);
-	--color-neutral-light-gray-blue: hsl(240, 75%, 98%);
+	--color-neutral-light-gray-blue: #F8F8FE;
 	--color-neutral-light-gray: hsl(0, 0%, 75%);
 
 	/* Fonts */
