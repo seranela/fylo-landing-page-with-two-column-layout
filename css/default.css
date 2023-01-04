@@ -202,7 +202,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	padding: 0 var(--page-side-padding);
-	max-width: calc(var(--max-page-width) + var(--page-side-padding));
+	max-width: calc(var(--page-max-width) + var(--page-side-padding));
 	margin: 0 auto;
 }
 
